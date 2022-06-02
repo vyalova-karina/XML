@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+    <bugNumber>3</bugNumber>
+    <summary>The Moscow can not be selected in the header, delivery information is displayed for the Saint-Petersburg</summary>
+    <stepsToReproduce>
+      <step1>Open link: https://amppa.ru/help/delivery/</step1>
+      <step2>Select Moscow<step2>
+    </stepsToReproduce>  
+    <result>The header says: "Ваш город Санкт-Петербург." The page provides information about delivery in Saint-Petersburg</result>
+    <expectedResult>The header says: "Ваш город Москва." The page displays information about delivery in Moscow</expectedResult>
+    <reporter>Vyalova Karina</reporter>	
+    <severity>Minor</severity>	
+    <priority>Low</priority>	
+    <environment>Mac OS Monterey (версия 12.2.1) Google Chrome (версия 101.0.4951.41)</environment>
+</bugReport>
