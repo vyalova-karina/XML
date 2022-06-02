@@ -4,7 +4,7 @@
     <summary>The Moscow can not be selected in the header, delivery information is displayed for the Saint-Petersburg</summary>
     <stepsToReproduce>
       <step1>Open link: https://amppa.ru/help/delivery/</step1>
-      <step2>Select Moscow<step2>
+      <step2>Select Moscow</step2>
     </stepsToReproduce>  
     <result>The header says: "Ваш город Санкт-Петербург." The page provides information about delivery in Saint-Petersburg</result>
     <expectedResult>The header says: "Ваш город Москва." The page displays information about delivery in Moscow</expectedResult>
